@@ -1,0 +1,344 @@
+/*common styling elements placed at bottom of page*/
+
+body{
+	font-family: sans-serif;}
+a {
+	color:grey;
+	text-decoration:none;	 
+	font-weight: bold;}
+	
+img { max-width: 100%;}
+
+
+/*############ Header #########################*/
+#banner {
+	width:100%;
+	border: thin solid pink;
+	overflow: hidden;}
+	
+#menu_icon {
+	float: left;
+	width:10%;
+	position: relative;
+	cursor:pointer;
+	font-size: 2em;
+	border: thin solid black;
+	padding: 0 0 0 1em;}
+
+
+#sync_info {
+	border: thin solid blue;	
+	color: #ccc;
+	font-size: 0.8em;}
+	
+	
+
+
+/*############ Menu - slide in #########################*/
+#nav {
+	height: 100%;
+    width: 0;
+    position: fixed;	
+	background-color: #455054;
+	overflow-x: hidden;	
+    transition: 0.5s;} 
+
+#nav a {
+	display: block;
+	max-width: 10%;	
+	padding: 0.8em;
+	border-bottom: thin solid #566165;}
+		
+#nav_modal {	/* The Modal (background) according to w3schols*/
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+	width: 0%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    transition: 0.5s;}
+
+	
+	
+
+/*############ Index page #########################*/
+#user_conferences button{
+	width:100%;	
+	display:block;
+	text-align: left;}
+
+#start_pg_bg_img {
+	width:100%;	
+}
+
+
+/*############ Login page #########################*/
+
+#delegate_text {
+	padding-top: 15%;
+    text-align: center;
+}
+
+#login_form {
+    margin: auto;
+	padding-top: 9%;
+    text-align: center;
+}
+
+#gdpr_terms_modal {	/* The Modal (background) according to w3schols*/
+	display:none;/* Hidden by default */	
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+	width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */	
+    padding: 60px;}
+
+#gdpr_terms_sttmnt {
+	background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */}
+
+	
+
+
+/*############ generic app page #########################*/
+#home_frame {
+	width:100%;}
+	
+
+
+	
+/*############ Home #########################*/
+
+#home_action_tabs div{
+	width:49.6%;
+	border-right:thin solid grey;
+	cursor: pointer;}
+	
+#home_action_tabs img{
+	width:100%;}
+
+#home_action_tabs section{	
+	overflow-x: hidden;}
+	
+/*more conference info view*/
+#more_conference_info {	
+	overflow-x: hidden;
+	margin: 2em 0 2em 0;}
+	
+#more_conference_info img{
+	width:100%;}
+
+#addr_icon { /*map icon img*/
+	width:10%;
+	margin: 1em 1em 0 0;}
+	
+#addr_text {
+	display: inline;}
+	
+#less_info_btn {
+    position: fixed;
+    bottom: 0;
+	left: 50%;	/*help keep centered*/
+    margin-left:-50px;/*help keep centered*/}
+
+
+
+/*############ find people page ############*/
+#search_bar {	
+	width: 93%;
+    border: 1px solid #000;
+    border-radius: 4px;                       /*curvy edges*/
+	background-image: url('search_icon.png'); /*icon file location*/
+    background-repeat: no-repeat;             /*dont repeat image*/
+    background-position: right;               /*icon position*/
+    background-size: 1.5em;	                  /*icon size*/
+	padding: 0.5em 6% 0.5em 1%;             /*padding around the text*/}
+
+#people_list_caption{
+	text-align:right;
+	color: #ccc;}	
+
+#people_list button {
+	float:left;
+	width:100%;
+	border: thin solid #000;
+	margin: 0.5em 0 0.5em 0;
+	background-color: #fff;
+	cursor:pointer;}
+	
+#people_list p {
+	float:left;
+	text-align:left;
+	width:80%;
+	margin-left:1em;}
+	
+#people_list a {
+	margin:1em 0.5em 0 0; /*align top with p tag's default margin*/
+	float:right;
+	color:blue;
+	text-decoration:underline;}
+	
+	
+
+/*############ agenda page ############*/
+#agenda_list_caption{
+	text-align:right;
+	color: #ccc;}
+	
+#agenda_list button {
+	float:left;
+	width:100%;
+	border: thin solid #000;
+	border-radius: 10px;
+	margin: 0.5em 0 0.5em 0;
+	background-color: #c8c8c8;
+	cursor:pointer;}
+	
+#agenda_list p {
+	text-align:left;
+	margin-left:1em;
+	font-size: 2em;}
+	
+
+/*############ manage meetings page ############*/
+#meetings_list_caption{
+	text-align:right;
+	color: #ccc;}
+	
+#meetings_list button {
+	float:left;
+	width:100%;
+	border: thin solid #000;
+	border-radius: 10px;
+	margin: 0.5em 0 0.5em 0;
+	background-color: #ffffff;
+	cursor:pointer;}
+	
+#meetings_list p {
+	text-align:left;
+	margin-left:1em;
+	font-size: 2em;}
+	
+
+
+/*############ person profile page ############*/
+#person_profile_meeting_schdlr_div {
+	display:none;
+	
+}
+	
+/*############ All Profile pages #########################*/
+#user_profile_id {
+	float:left;
+	width:100%;
+	margin: 4em 0 2em 0;
+}
+#profile_photo_div {
+	background-color: #ccc;
+	width:40%;
+	height:20em;
+}
+#profile_photo_div img{
+	width:100%;
+	height:100%;
+}
+
+input:focus::-webkit-input-placeholder {
+	color: white;}
+	
+input::-webkit-input-placeholder {
+    color: #ccc;}
+	
+#attendee_profile_form fieldset, 
+#user_profile_form fieldset {
+	margin:2em 0 2em 0;
+	border:none;}
+	
+#user_profile_form button {
+	font-size:2em;}
+
+#user_profile_form input {
+	text-align:right;}
+
+#user_profile_form label, 
+#user_profile_form input, 
+#user_profile_form textarea {	
+	font-size:2em;
+	border:none;}
+	
+textarea {
+	width:100%;
+}
+
+	
+	
+
+/*############ manage meeting page ############*/
+#meeting_filter li {
+	display: inline;
+	margin: 0 2em 0 2em;}
+
+#meeting_filter a {
+	text-decoration:none;}
+	
+
+	
+/**/
+
+	
+	
+	
+	
+/*############ general classes ############*/
+.right {
+	float:right;}
+	
+.left {
+	float:left;}
+
+.center {
+	text-align:center;}
+
+.hide {
+	display: none;
+}
+
+.right_border {
+	border-right:thin solid grey;
+	height:100%;
+}
+
+.bold {
+	font-weight: bold;}
+
+.grey_txt {	
+	color: #606060;}
+
+.thin_italic_grey {
+	color: #383838;	
+	font-style: italic;
+	font-weight:normal;}
+
+.grey_btn {
+	background-color: #383838;
+	color:#ffffff;
+}
+
+.red_btn {
+	background-color: red;
+	color:#ffffff;
+}
+
+.red {
+	color:red;
+}
